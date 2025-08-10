@@ -3,8 +3,8 @@
 <div class="top-bar">
     <div class="container">
         <div class="contact-info">
-            <span><i class="fas fa-phone-alt"></i> +234 800 123 4567</span>
-            <span><i class="fas fa-envelope"></i> info@example.com</span>
+            <span><i class="fas fa-phone-alt"></i> +234 803 074 3653</span>
+            <span><i class="fas fa-envelope"></i> sales@farmglobal.org</span>
         </div>
         <div class="social-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>

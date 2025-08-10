@@ -65,10 +65,9 @@
                     <h2>Contact us at:</h2>
                     <p><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__"
                             data-cfemail="167f78707956747077647b3875797b">[email&#160;protected]</a></p>
-                    <p>(209) 827-3000</p>
-                    <p>11609 Hereford Rd,<br />
-                        Los Banos, CA<br />
-                        93635</p>
+                    <p>+234 803 074 3653</p>
+                    <p>U.S.A Cooperate Headquarters California</p>
+                    <p>Nigeria cooperate Headquarters Maitama, Abuja</p>
                 </div>
 
                 <ul class="contact-location-social">
