@@ -7,8 +7,6 @@
             <div class="contact-hero-content">
                 <h2>Get in Touch<br />
                     with Us!</h2>
-                <h3>Whether you&#8217;re interested in partnering with Bowles Farming Company or want to learn more about our
-                    sustainable practices, we&#8217;re eager to connect with you.</h3>
             </div>
         </div>
         <div class="page-hero-background">

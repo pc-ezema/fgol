@@ -25,12 +25,12 @@
     <nav class="nav" id="nav-menu">
         <ul>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Operations</a></li>
+            <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
             <li><a href="#">Sustainability</a></li>
             <li><a href="#">Innovation</a></li>
             <li><a href="#">Investor Relations</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><a class="{{ (request()->is('news-media')) ? 'activeMenu' : '' }}" href="{{ route('news-media')}}">News</a></li>
+            <li><a class="{{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers')}}">Careers</a></li>
             <li><a class="{{ (request()->is('contact-us')) ? 'activeMenu' : '' }}" href="{{ route('contact-us')}}">Contact Us</a></li>
         </ul>
     </nav>
@@ -47,12 +47,12 @@
     </a>
     <div class="overlay-content">
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Operations</a></li>
+        <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
         <li><a href="#">Sustainability</a></li>
         <li><a href="#">Innovation</a></li>
         <li><a href="#">Investor Relations</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Careers</a></li>
+        <li><a class="{{ (request()->is('news-media')) ? 'activeMenu' : '' }}" href="{{ route('news-media')}}">News</a></li>
+        <li><a class="{{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers')}}">Careers</a></li>
         <li><a class="{{ (request()->is('contact-us')) ? 'activeMenu' : '' }}" href="{{ route('contact-us')}}">Contact Us</a></li>
     </div>
 </div>

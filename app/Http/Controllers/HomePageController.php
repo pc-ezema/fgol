@@ -13,6 +13,21 @@ class HomePageController extends Controller
         return view('pages.index');
     }
 
+    public function ourOperations()
+    {
+        return view('pages.operations');
+    }
+
+    public function newsMedia() 
+    {
+        return view('pages.news');
+    }
+
+    public function careers() 
+    {
+        return view('pages.careers');
+    }
+
     public function contactUs() 
     {
         return view('pages.contactUs');
