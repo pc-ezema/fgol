@@ -63,8 +63,7 @@
             <div class="section-action-content contact-location-content">
                 <div class="content">
                     <h2>Contact us at:</h2>
-                    <p><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__"
-                            data-cfemail="167f78707956747077647b3875797b">[email&#160;protected]</a></p>
+                    <p>sales@farmglobal.org</p>
                     <p>+234 803 074 3653</p>
                     <p>U.S.A Cooperate Headquarters California</p>
                     <p>Nigeria cooperate Headquarters Maitama, Abuja</p>
@@ -93,12 +92,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="section-action-image contact-location-image">
-                <img data-src="https://bfarm.com/wp-content/uploads/2023/06/map-1.png" alt="" class="img-fluid defer">
-            </div>
         </div>
         <div class="section-action-background">
-            <img data-src="https://bfarm.com/wp-content/uploads/2023/06/map-bg.png" class="img-fluid defer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31517.64228925568!2d7.472392516534679!3d9.090589349244125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a42a5e3f47d%3A0xa5b2f06d94fb9ecb!2sMaitama%2C%20Abuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1754899605175!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 </main>

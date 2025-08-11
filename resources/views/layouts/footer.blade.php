@@ -49,9 +49,8 @@
              </div>
 
              <div class="footer-address">
-                 <p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5805.557504493383!2d-120.74851748001468!3d37.11970749442791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80917b649dc50c6f%3A0x730f88ae4f7bedcb!2s11609%20Hereford%20Rd%2C%20Los%20Banos%2C%20CA%2093635!5e1!3m2!1sen!2sus!4v1715881321343!5m2!1sen!2sus" width="265" height="220" allowfullscreen="allowfullscreen"></iframe></p>
-                 <p>11609 Hereford Rd,<br />
-                     Los Banos, CA 93635</p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31517.64228925568!2d7.472392516534679!3d9.090589349244125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a42a5e3f47d%3A0xa5b2f06d94fb9ecb!2sMaitama%2C%20Abuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1754899605175!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <p>Nigeria Cooperate Headquarters Maitama, Abuja</p>
              </div>
          </div>
      </div>

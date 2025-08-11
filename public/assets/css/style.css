@@ -8190,7 +8190,7 @@ input[type="submit"].button--ghost:hover {
     .home-hero-content h2 {
         margin-bottom: 0;
         /* font-size: 60px; */
-        line-height: 96px;
+        line-height: 50px;
     }
 
     .home-hero-content h3 {
@@ -8547,7 +8547,7 @@ input[type="submit"].button--ghost:hover {
 
 @media (min-width: 768px) {
     .home-quality {
-        padding-bottom: 0;
+        padding-bottom: 1rem;
     }
 
     .home-quality .container {
@@ -10584,8 +10584,8 @@ input[type="submit"].button--ghost:hover {
 
     .contact-hero-content h2 {
         margin-bottom: 0;
-        font-size: 95px;
-        line-height: 96px;
+        font-size: 40px;
+        line-height: 50px;
     }
 
     .contact-hero-content h3 {
@@ -12072,6 +12072,129 @@ input[type="submit"].button--ghost:hover {
     }
 }
 
+/* Index Page */
+/* Essential Oil */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 340px;
+    perspective: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.flip-card-front {
+    background-size: 380px;
+    background-position: center top;
+    background-repeat: no-repeat; /* Prevents tiling */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #194d02;
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+
+/* Add blur overlay gradient at bottom */
+.flip-card-front::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to top, rgb(26, 77, 58), transparent);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.flip-card-front span {
+    position: relative;
+    line-height: 1.2;
+    z-index: 1;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+/* .flip-card-front span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 44px;
+    background-color: #194d02;
+    -webkit-transform: translateX(calc(var(--c-block-gap-horizontal) * -1));
+    transform: translateX(calc(var(--c-block-gap-horizontal) * -1));
+} */
+
+.flip-card-back {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    bottom: -100%;
+    transition: bottom 0.5s ease;
+    font-size: 20px;
+    line-height: 1.5;
+    z-index: 2;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flip-card:hover .flip-card-back {
+    bottom: 0;
+}
+
+.flip-card:hover .flip-card-front {
+    transform: translateY(-100%);
+}
+
+.flip-card-back h3 {
+    font-size: calc(1rem + .6vw) !important;
+    color: #fff;
+}
+
+.flip-card:nth-child(even) {
+    margin-top: 30px; /* push even cards down */
+}
+
+
+@media (max-width: 768px) {
+    .flip-card-front {
+        font-size: 18px;   /* Adjust font size on smaller screens */
+        padding: 10px;     /* Reduce padding for mobile screens */
+    }
+
+    .flip-card {
+        padding: 0;
+    }
+}
+
 /* Header */
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
@@ -12183,7 +12306,7 @@ input[type="submit"].button--ghost:hover {
 }
 
 .custom-header .logo img {
-    height: 50px;
+    height: 70px;
 }
 
 .nav ul {

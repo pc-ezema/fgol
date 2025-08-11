@@ -5,8 +5,8 @@
     <section class="home-hero page-hero">
         <div class="container">
             <div class="home-hero-content">
-                <h2>Cultivating Africa's Agricultural Renaissance</h2>
-                <h3>Where Vision Meets Harvest</h3>
+                <h2>Revolutionizing Global Agriculture from the Heart of Africa</h2>
+                <h3><i>Where Vision Meets Harvest</i></h3>
             </div>
         </div>
         <div class="page-hero-background">
@@ -69,50 +69,74 @@
             <img data-src="https://placehold.co/1902x1059" class="img-fluid defer">
         </div>
     </section>
-    <section class="home-quality">
+    <section class="home-quality" style="padding-top: 1.5rem;">
         <div class="container">
-            <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-245 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>Crop Production</h2>
-                    <p>Large-scale cultivation of cereals, cash crops, and horticulture across 250,000+ acres with precision agriculture technology.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>Crop Production</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Crop Production</h3>
+                            <p>Large-scale cultivation of cereals, cash crops, and horticulture across 250,000+ acres with precision agriculture technology.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-246 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>Medicinal Crops</h2>
-                    <p>Specialized cultivation of pharmaceutical plants including artemisia, moringa, and ginger for global health markets.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>Medicinal Crops</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Medicinal Crops</h3>
+                            <p>Specialized cultivation of pharmaceutical plants including artemisia, moringa, and ginger for global health markets.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-247 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>Livestock & Dairy</h2>
-                    <p>Integrated animal production including cattle ranching, poultry farming, and aquaculture with modern facilities.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>Livestock & Dairy</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Livestock & Dairy</h3>
+                            <p>Integrated animal production including cattle ranching, poultry farming, and aquaculture with modern facilities.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-             <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-245 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>Sustainable Mining</h2>
-                    <p>Responsible extraction of minerals that support agricultural operations while maintaining environmental standards.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>Sustainable Mining</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Sustainable Mining</h3>
+                            <p>Responsible extraction of minerals that support agricultural operations while maintaining environmental standards.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-246 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>AgTech Innovation</h2>
-                    <p>Cutting-edge agricultural technology including AI, drones, and IoT sensors for precision farming and optimization.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>AgTech Innovation</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>AgTech Innovation</h3>
+                            <p>Cutting-edge agricultural technology including AI, drones, and IoT sensors for precision farming and optimization.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="home-quality-item">
-                <div class="content">
-                    <h2><img decoding="async" class="alignnone wp-image-247 size-thumbnail" role="img" src="https://placehold.co/80x72" alt="" width="150" height="150" /></h2>
-                    <h2>Supply Chain</h2>
-                    <p>Integrated logistics and processing facilities ensuring farm-to-market efficiency with global distribution networks.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" style="background-image: url('https://placehold.co/600x400');">
+                            <span>Supply Chain</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Supply Chain</h3>
+                            <p>Integrated logistics and processing facilities ensuring farm-to-market efficiency with global distribution networks.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
     </section>
     <section class="home-action home-action--company">

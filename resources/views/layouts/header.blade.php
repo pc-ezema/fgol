@@ -43,7 +43,7 @@
 <div id="mobileMenu" class="overlay">
     <button class="close-btn" id="menu-close">&times;</button>
     <a href="{{ route('index') }}" class="logo">
-        <img src="{{url('assets/images/logo.png')}}" alt="{{config('app.name')}}" style="height: 50px;">
+        <img src="{{url('assets/images/logo.png')}}" alt="{{config('app.name')}}" style="height: 100px;">
     </a>
     <div class="overlay-content">
         <li><a href="#">About Us</a></li>
