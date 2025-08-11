@@ -26,9 +26,9 @@
         <ul>
             <li><a href="#">About Us</a></li>
             <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Innovation</a></li>
-            <li><a href="#">Investor Relations</a></li>
+            <li><a class="{{ (request()->is('sustainability')) ? 'activeMenu' : '' }}" href="{{ route('sustainability')}}">Sustainability</a></li>
+            <li><a class="{{ (request()->is('innovation-technology')) ? 'activeMenu' : '' }}" href="{{ route('innovation-technology')}}">Innovation</a></li>
+            <li><a class="{{ (request()->is('investor-relations')) ? 'activeMenu' : '' }}" href="{{ route('investor-relations')}}">Investor Relations</a></li>
             <li><a class="{{ (request()->is('news-media')) ? 'activeMenu' : '' }}" href="{{ route('news-media')}}">News</a></li>
             <li><a class="{{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers')}}">Careers</a></li>
             <li><a class="{{ (request()->is('contact-us')) ? 'activeMenu' : '' }}" href="{{ route('contact-us')}}">Contact Us</a></li>
@@ -48,9 +48,9 @@
     <div class="overlay-content">
         <li><a href="#">About Us</a></li>
         <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
-        <li><a href="#">Sustainability</a></li>
-        <li><a href="#">Innovation</a></li>
-        <li><a href="#">Investor Relations</a></li>
+        <li><a class="{{ (request()->is('sustainability')) ? 'activeMenu' : '' }}" href="{{ route('sustainability')}}">Sustainability</a></li>
+        <li><a class="{{ (request()->is('innovation-technology')) ? 'activeMenu' : '' }}" href="{{ route('innovation-technology')}}">Innovation</a></li>
+        <li><a class="{{ (request()->is('investor-relations')) ? 'activeMenu' : '' }}" href="{{ route('investor-relations')}}">Investor Relations</a></li>
         <li><a class="{{ (request()->is('news-media')) ? 'activeMenu' : '' }}" href="{{ route('news-media')}}">News</a></li>
         <li><a class="{{ (request()->is('careers')) ? 'activeMenu' : '' }}" href="{{ route('careers')}}">Careers</a></li>
         <li><a class="{{ (request()->is('contact-us')) ? 'activeMenu' : '' }}" href="{{ route('contact-us')}}">Contact Us</a></li>

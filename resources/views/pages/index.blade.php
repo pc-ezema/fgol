@@ -5,7 +5,7 @@
     <section class="home-hero page-hero">
         <div class="container">
             <div class="home-hero-content">
-                <h2>Revolutionizing Global Agriculture from the Heart of Africa</h2>
+                <h2>Revolutionizing Global Agriculture <br />from the Heart of Africa</h2>
                 <h3><i>Where Vision Meets Harvest</i></h3>
             </div>
         </div>
@@ -15,7 +15,6 @@
     </section>
     <section class="home-content">
         <div class="container">
-            <!-- <h2>Inspiring growth, fostering sustainability.</h2> -->
             <p>Premium agricultural investments rooted in Nigeria's fertile landscape. Farming Global Operating Limited transforms traditional farming into sophisticated agribusiness ventures that deliver exceptional returns while nurturing food security across West Africa.</p>
         </div>
     </section>

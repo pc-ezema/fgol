@@ -18,6 +18,21 @@ class HomePageController extends Controller
         return view('pages.operations');
     }
 
+    public function sustainability()
+    {
+        return view('pages.sustainability');
+    }
+
+    public function innovationTechnology()
+    {
+        return view('pages.innovationTechnology');
+    }
+
+    public function investorRelations()
+    {
+        return view('pages.investorRelations');
+    }
+
     public function newsMedia() 
     {
         return view('pages.news');
