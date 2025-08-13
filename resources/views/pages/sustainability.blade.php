@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1200x800" alt="Sustainability" class="img-fluid">
+            <img src="{{ url('assets/images/sustainability/sustainability-hero.jpeg')}}" alt="Sustainability" class="img-fluid">
         </div>
     </section>
 
@@ -21,7 +21,7 @@
             <!-- Environmental Stewardship -->
             <div class="sustainability-card fade-left fade-in-left">
                 <div class="sustainability-image">
-                    <img src="https://placehold.co/600x400" alt="Environmental Stewardship">
+                    <img src="{{ url('assets/images/sustainability/environmental-stewardship.jpeg')}}" alt="Environmental Stewardship">
                 </div>
                 <div class="sustainability-content fade-right">
                     <h2>Environmental Stewardship</h2>
@@ -38,7 +38,7 @@
             <!-- Social Responsibility -->
             <div class="sustainability-card reverse fade-right fade-in-right">
                 <div class="sustainability-image">
-                    <img src="https://placehold.co/600x400" alt="Social Responsibility">
+                    <img src="{{ url('assets/images/sustainability/social-responsiblity.jpeg')}}" alt="Social Responsibility">
                 </div>
                 <div class="sustainability-content fade-left">
                     <h2>Social Responsibility</h2>
@@ -54,7 +54,7 @@
             <!-- Governance Excellence -->
             <div class="sustainability-card fade-left fade-in-left">
                 <div class="sustainability-image">
-                    <img src="https://placehold.co/600x400" alt="Governance Excellence">
+                    <img src="{{ url('assets/images/sustainability/governance-excellence.jpeg')}}" alt="Governance Excellence">
                 </div>
                 <div class="sustainability-content fade-right">
                     <h2>Governance Excellence</h2>

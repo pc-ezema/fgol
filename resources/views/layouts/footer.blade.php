@@ -10,38 +10,31 @@
              <div class="footer-menu">
                  <div class="menu-footer-container">
                      <ul id="menu-footer" class="menu">
-                         <li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-79"><a>Bowles Farming</a>
+                         <li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-79"><a>Popular Links</a>
                              <ul class="sub-menu">
-                                 <li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-103 current_page_item menu-item-710"><a href="index.html" aria-current="page">Home</a></li>
-                                 <li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-711"><a href="about/index.html">About Us</a></li>
-                                 <li id="menu-item-714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-714"><a href="our-history/index.html">Our History</a></li>
-                                 <li id="menu-item-712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712"><a href="our-community/index.html">Our Community</a></li>
-                                 <li id="menu-item-713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713"><a href="our-expert-team/index.html">Our Expert Team</a></li>
+                                 <li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-103 current_page_item menu-item-710"><a href="{{ route('index')}}" aria-current="page">Home</a></li>
+                                 <li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-711"><a href="{{ route('about-us')}}">About Us</a></li>
+                                 <li id="menu-item-714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-714"><a href="{{ route('our-operations')}}">Operations</a></li>
+                                 <li id="menu-item-712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712"><a href="{{ route('sustainability')}}">Sustainability</a></li>
+                                 <li id="menu-item-713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-713"><a href="{{ route('innovation-technology')}}">Innovation</a></li>
                              </ul>
                          </li>
-                         <li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80"><a>Crops &#038; Services</a>
+                         <li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-80"><a>Business Segment</a>
                              <ul class="sub-menu">
-                                 <li id="menu-item-720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="our-crops/index.html">Our Crops</a></li>
-                                 <li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715"><a href="california-crops/index.html">California Farming</a></li>
-                                 <li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="cotton/index.html">Cotton</a></li>
-                                 <li id="menu-item-719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719"><a href="organic-crops/index.html">Organic Crops</a></li>
-                                 <li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="crop-partners/index.html">Crop Partners</a></li>
-                                 <li id="menu-item-718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="farm-management/index.html">Farm Management</a></li>
+                                 <li id="menu-item-720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="{{ route('index')}}/#businessSegment">Crop Production</a></li>
+                                 <li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715"><a href="{{ route('index')}}/#businessSegment">Medicinal Crops</a></li>
+                                 <li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="{{ route('index')}}/#businessSegment">Livestock & Dairy</a></li>
+                                 <li id="menu-item-719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-719"><a href="{{ route('index')}}/#businessSegment">Sustainable Mining</a></li>
+                                 <li id="menu-item-717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-717"><a href="{{ route('index')}}/#businessSegment">AgTech Innovation</a></li>
+                                 <li id="menu-item-718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a href="{{ route('index')}}/#businessSegment">Supply Chain</a></li>
                              </ul>
                          </li>
-                         <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-81"><a>Stewardship</a>
+                         <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-81"><a>Quick Links</a>
                              <ul class="sub-menu">
-                                 <li id="menu-item-724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="stewardship/index.html">Stewardship</a></li>
-                                 <li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="the-land/index.html">The Land</a></li>
-                                 <li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="renewable-energy/index.html">Renewable Energy</a></li>
-                                 <li id="menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="our-employees/index.html">Our Employees</a></li>
-                             </ul>
-                         </li>
-                         <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82"><a>Contact</a>
-                             <ul class="sub-menu">
-                                 <li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="contact/index.html">Contact Us</a></li>
-                                 <li id="menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-727"><a rel="privacy-policy" href="privacy-policy/index.html">Privacy Policy</a></li>
-                                 <li id="menu-item-93" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93"><a href="terms-of-service/index.html">Terms of Service</a></li>
+                                 <li id="menu-item-724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="{{ route('investor-relations')}}">Investor Relations</a></li>
+                                 <li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="{{ route('news-media')}}">News</a></li>
+                                 <li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="{{ route('careers')}}">Careers</a></li>
+                                 <li id="menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="{{ route('contact-us')}}">Contact Us</a></li>
                              </ul>
                          </li>
                      </ul>

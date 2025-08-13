@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1200x800" alt="Our Operations" class="img-fluid">
+            <img src="{{ url('assets/images/operations/our-operations-hero.jpeg')}}" alt="Our Operations" class="img-fluid">
         </div>
     </section>
 
@@ -21,7 +21,7 @@
             <!-- Agriculture Division -->
             <div class="operation-card fade-left fade-in-left">
                 <div class="operation-image">
-                    <img src="https://placehold.co/600x400" alt="Agriculture Division">
+                    <img src="{{ url('assets/images/operations/agriculture-division.jpeg')}}" alt="Agriculture Division">
                 </div>
                 <div class="operation-content fade-right">
                     <h2>Agriculture Division</h2>
@@ -36,7 +36,7 @@
             <!-- Medicinal Crops Division -->
             <div class="operation-card reverse fade-right fade-in-right">
                 <div class="operation-image">
-                    <img src="https://placehold.co/600x400" alt="Medicinal Crops Division">
+                    <img src="{{ url('assets/images/operations/medicinal-crops-division.jpeg')}}" alt="Medicinal Crops Division">
                 </div>
                 <div class="operation-content fade-left">
                     <h2>Medicinal Crops Division</h2>
@@ -52,7 +52,7 @@
             <!-- Livestock & Animal Production -->
             <div class="operation-card fade-left fade-in-left">
                 <div class="operation-image">
-                    <img src="https://placehold.co/600x400" alt="Livestock & Animal Production">
+                    <img src="{{ url('assets/images/operations/livestock-and-animal-production.jpeg')}}" alt="Livestock & Animal Production">
                 </div>
                 <div class="operation-content fade-right">
                     <h2>Livestock & Animal Production</h2>
@@ -68,7 +68,7 @@
             <!-- Mining Operations -->
             <div class="operation-card reverse fade-right fade-in-right">
                 <div class="operation-image">
-                    <img src="https://placehold.co/600x400" alt="Mining Operations">
+                    <img src="{{ url('assets/images/operations/mining-operations.jpeg')}}" alt="Mining Operations">
                 </div>
                 <div class="operation-content fade-left">
                     <h2>Mining Operations</h2>
@@ -84,7 +84,7 @@
             <!-- Technology Integration -->
             <div class="operation-card fade-left fade-in-left">
                 <div class="operation-image">
-                    <img src="https://placehold.co/600x400" alt="Technology Integration">
+                    <img src="{{ url('assets/images/operations/technology-integration.jpeg')}}" alt="Technology Integration">
                 </div>
                 <div class="operation-content fade-right">
                     <h2>Technology Integration</h2>
@@ -96,7 +96,6 @@
                     </ul>
                 </div>
             </div>
-
         </div>
     </section>
 

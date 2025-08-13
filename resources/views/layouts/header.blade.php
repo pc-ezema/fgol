@@ -24,7 +24,7 @@
     <!-- Desktop Nav -->
     <nav class="nav" id="nav-menu">
         <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a class="{{ (request()->is('about-us')) ? 'activeMenu' : '' }}" href="{{ route('about-us')}}">About Us</a></li>
             <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
             <li><a class="{{ (request()->is('sustainability')) ? 'activeMenu' : '' }}" href="{{ route('sustainability')}}">Sustainability</a></li>
             <li><a class="{{ (request()->is('innovation-technology')) ? 'activeMenu' : '' }}" href="{{ route('innovation-technology')}}">Innovation</a></li>
@@ -46,7 +46,7 @@
         <img src="{{url('assets/images/logo.png')}}" alt="{{config('app.name')}}" style="height: 100px;">
     </a>
     <div class="overlay-content">
-        <li><a href="#">About Us</a></li>
+        <li><a class="{{ (request()->is('about-us')) ? 'activeMenu' : '' }}" href="{{ route('about-us')}}">About Us</a></li>
         <li><a class="{{ (request()->is('our-operations')) ? 'activeMenu' : '' }}" href="{{ route('our-operations')}}">Operations</a></li>
         <li><a class="{{ (request()->is('sustainability')) ? 'activeMenu' : '' }}" href="{{ route('sustainability')}}">Sustainability</a></li>
         <li><a class="{{ (request()->is('innovation-technology')) ? 'activeMenu' : '' }}" href="{{ route('innovation-technology')}}">Innovation</a></li>
