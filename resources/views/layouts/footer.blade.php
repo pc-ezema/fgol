@@ -32,7 +32,7 @@
                          <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-81"><a>Quick Links</a>
                              <ul class="sub-menu">
                                  <li id="menu-item-724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-724"><a href="{{ route('investor-relations')}}">Investor Relations</a></li>
-                                 <li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="{{ route('news-media')}}">News</a></li>
+                                 <li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="#">News</a></li>
                                  <li id="menu-item-723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-723"><a href="{{ route('careers')}}">Careers</a></li>
                                  <li id="menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-722"><a href="{{ route('contact-us')}}">Contact Us</a></li>
                              </ul>

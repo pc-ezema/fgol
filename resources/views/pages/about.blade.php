@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1200x800" alt="About FGOL" class="img-fluid">
+            <img src="{{ url('assets/images/about/about-us-hero.jpeg')}}" alt="About FGOL" class="img-fluid">
         </div>
     </section>
 
@@ -42,14 +42,14 @@
                 </div>
             </div>
             <div class="section-action-image about-team-image">
-                <img src="https://placehold.co/1000x750">
+                <img src="{{ url('assets/images/about/vision.jpeg')}}">
             </div>
         </div>
     </section>
 
     <!-- Mission -->
     <section class="section-action about-community"
-        style="background-image: url('https://placehold.co/1000x750');">
+        style="background-image: url('assets/images/about/mission.jpeg');">
         <div class="overlay"></div>
         <div class="about-community-content">
             <div class="content fade-up">

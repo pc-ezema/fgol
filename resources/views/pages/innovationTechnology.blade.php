@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1200x800" alt="Innovation & Technology" class="img-fluid">
+            <img src="{{ url('assets/images/innovation/innovation-and-technology-hero.jpeg')}}" alt="Innovation & Technology" class="img-fluid">
         </div>
     </section>
 
@@ -22,7 +22,7 @@
                 <!-- Research & Development -->
                 <article class="innovation-card fade-up fade-in">
                     <div class="innovation-image">
-                        <img src="https://placehold.co/600x400" alt="Research & Development">
+                        <img src="{{ url('assets/images/innovation/research-and-development.jpeg')}}" alt="Research & Development">
                     </div>
                     <div class="innovation-content">
                         <h3>Research & Development</h3>
@@ -38,7 +38,7 @@
                 <!-- Digital Agriculture -->
                 <article class="innovation-card fade-up fade-in" style="animation-delay: 0.15s;">
                     <div class="innovation-image">
-                        <img src="https://placehold.co/600x400" alt="Digital Agriculture">
+                        <img src="{{ url('assets/images/innovation/digital-agriculture.jpeg')}}" alt="Digital Agriculture">
                     </div>
                     <div class="innovation-content">
                         <h3>Digital Agriculture</h3>
@@ -54,7 +54,7 @@
                 <!-- AgTech Partnerships -->
                 <article class="innovation-card fade-up fade-in" style="animation-delay: 0.3s;">
                     <div class="innovation-image">
-                        <img src="https://placehold.co/600x400" alt="AgTech Partnerships">
+                        <img src="{{ url('assets/images/innovation/agtech-partnerships.jpeg')}}" alt="AgTech Partnerships">
                     </div>
                     <div class="innovation-content">
                         <h3>AgTech Partnerships</h3>

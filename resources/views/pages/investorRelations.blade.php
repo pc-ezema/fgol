@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1200x800" alt="Investor Relations" class="img-fluid">
+            <img src="{{ url('assets/images/investor/investor-relations-hero.jpeg')}}" alt="Investor Relations" class="img-fluid">
         </div>
     </section>
 

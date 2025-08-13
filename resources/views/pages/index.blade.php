@@ -95,7 +95,7 @@
             <div class="section-action-content commitment-action-content">
                 <div class="content">
                     <h2>Farmers & Stakeholders Empowerment</h2>
-                    <p>our success is rooted in our commitment to elevating every stakeholder in our agricultural ecosystem. We don't just employ farmers—we transform them into agricultural entrepreneurs and equity partners. Our comprehensive empowerment programs create wealth that extends far beyond our immediate operations.</p>
+                    <p>Our success is rooted in our commitment to elevating every stakeholder in our agricultural ecosystem. We don't just employ farmers—we transform them into agricultural entrepreneurs and equity partners. Our comprehensive empowerment programs create wealth that extends far beyond our immediate operations.</p>
                 </div>
             </div>
             <!-- <div class="section-action-image commitment-action-image">

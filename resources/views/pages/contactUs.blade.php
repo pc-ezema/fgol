@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="page-hero-background">
-            <img src="https://placehold.co/1140x678" alt="Contact" class="img-fluid">
+            <img src="{{ url('assets/images/contact/contact-hero.jpeg')}}" alt="Contact" class="img-fluid">
         </div>
     </section>
     <section class="contact-form">
