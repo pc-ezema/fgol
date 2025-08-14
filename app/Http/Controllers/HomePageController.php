@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
 class HomePageController extends Controller
@@ -96,6 +97,20 @@ class HomePageController extends Controller
         // }
 
         // Save to database or send email here...
+        /** Store information to include in mail in $data as an array */
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'description' => $request->message,
+            'created_at' => now(),
+            'admin' => 'info@farmsglobal.org',
+        );
+
+        /** Send message to the admin */
+        Mail::send('emails.contact', $data, function ($m) use ($data) {
+            $m->to($data['admin'])->subject(config('app.name').' Contact Form Notification');
+        });
 
         return response()->json([
             'status' => 'success',
