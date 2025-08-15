@@ -13598,3 +13598,65 @@ textarea {
         font-size: 1.5rem;
     }
 }
+
+/* Contact Us */
+.contact-info-section {
+    padding: 2rem 1rem;
+    background: #f8f9fa;
+}
+
+.contact-info-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+.contact-social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-social-links li a {
+    color: #555;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.contact-social-links li a:hover {
+    color: #007bff;
+}
+
+.contact-map iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 350px;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+    .contact-info-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .contact-details {
+        flex: 1;
+    }
+
+    .contact-map {
+        flex: 1;
+    }
+}

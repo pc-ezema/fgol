@@ -42,8 +42,8 @@
              </div>
 
              <div class="footer-address">
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31517.64228925568!2d7.472392516534679!3d9.090589349244125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0a42a5e3f47d%3A0xa5b2f06d94fb9ecb!2sMaitama%2C%20Abuja%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1754899605175!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-                <p>Nigeria Cooperate Headquarters Maitama, Abuja</p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1051094874983!2d-117.61407942492333!3d34.0668197169615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3345baa1bafe5%3A0x61670d2fa35a594c!2s337%20N%20Vineyard%20Ave%2C%20Ontario%2C%20CA%2091764%2C%20USA!5e0!3m2!1sen!2sng!4v1755256884553!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <p>337 N. Vineyard., 4th floor, Ontario, CA 91764</p>
              </div>
          </div>
      </div>
